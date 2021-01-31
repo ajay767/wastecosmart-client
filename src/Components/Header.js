@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Icon from "./../util/Icon";
 import Cookie from "universal-cookie";
 import { toast } from "react-toastify";
-import axios from "./../util/Axios";
+// import axios from "./../util/Axios";
 
 const cookies = new Cookie();
 
@@ -51,7 +51,7 @@ export default class Header extends Component {
 						{this.state.isLoggedin ? (
 							<>
 								<Link to="/me">
-									<h5>Ajay yadav</h5>
+									<h5>user</h5>
 								</Link>
 								<Icon icon="user" />
 								<button

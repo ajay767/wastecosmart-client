@@ -6,7 +6,7 @@ export default class User extends Component {
 		return (
 			<div>
 				<Header />
-				<h3 className="primary__header">Welcome Ajay</h3>
+				<h3 className="primary__header">Welcome User</h3>
 				<div className="container user__container">
 					<div className="user__container__profile">
 						<img
@@ -14,8 +14,8 @@ export default class User extends Component {
 							alt="user"
 							src={user}
 						/>
-						<h4 className="name">Ajay yadav</h4>
-						<h4 className="email">aju9617@gmail.com</h4>
+						<h4 className="name">user name</h4>
+						<h4 className="email">client@gmail.com</h4>
 					</div>
 					<div className="user__container__coin">
 						<h4>
